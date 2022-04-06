@@ -1,0 +1,49 @@
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');    
+
+	a:active {color: #ffc40e;}
+	a:hover {color: #ffc40e;}
+	a:link {color: #ffc40e;}
+	a:visited {color: #ffc40e;}
+
+	
+
+	body {    
+	  color: white;    
+	  font-family: 'Varela Round', sans-serif;    
+	  background-attachment: fixed;
+	  background-color: #000;
+	  background-image: url(http://jellyfox.nya.pub/assets/redweb.gif)
+	  }    
+      
+	.title {    
+	    font-size: 50px;    
+	}    
+    
+	.listWrapper {    
+	    margin-left: auto;    
+	    margin-right: auto;    
+	    width: fit-content;    
+	}    
+    
+	@media screen and (max-width: 1000px) {    
+	    #pg_tips {    
+	        width: 400px !important; height: 200px !important;    
+	    }    
+	}    
+    
+	/** Footer **/    
+	footer{    
+	    padding: 20px;    
+	
+	.box {
+	  width: 30%;
+	  height: 200px;
+	}
+
+	img {
+	  width: 100%;
+	  height: 100%;
+	}	
+	</style>
+
