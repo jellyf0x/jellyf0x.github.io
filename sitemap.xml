@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://jellyfox.sly.io/</loc>
+        <loc>https://jellyfox-is-cool.github.io/</loc>
     </url>
     <url>
-        <loc>http://jellyfox.sly.io/about/</loc>
+        <loc>https://jellyfox-is-cool.github.io/about/</loc>
     </url>
     <url>
-        <loc>http://jellyfox.sly.io/blog/</loc>
+        <loc>https://jellyfox-is-cool.github.io/blog/</loc>
     </url>
     <url>
-        <loc>http://jellyfox.sly.io/blog/dontsupportjkrowling/</loc>
+        <loc>https://jellyfox-is-cool.github.io/blog/dontsupportjkrowling/</loc>
         <lastmod>2021-12-27</lastmod>
     </url>
     <url>
-        <loc>http://jellyfox.sly.io/blog/findingyakuza/</loc>
+        <loc>https://jellyfox-is-cool.github.io/blog/findingyakuza/</loc>
         <lastmod>2021-12-26</lastmod>
     </url>
     <url>
-        <loc>http://jellyfox.sly.io/blog/fuckwindows/</loc>
+        <loc>https://jellyfox-is-cool.github.io/blog/fuckwindows/</loc>
         <lastmod>2021-12-27</lastmod>
     </url>
     <url>
-        <loc>http://jellyfox.sly.io/blog/movingday/</loc>
+        <loc>https://jellyfox-is-cool.github.io/blog/movingday/</loc>
         <lastmod>2022-04-01</lastmod>
     </url>
     <url>
-        <loc>http://jellyfox.sly.io/blog/whymakeawebsite/</loc>
+        <loc>https://jellyfox-is-cool.github.io/blog/whymakeawebsite/</loc>
         <lastmod>2021-12-29</lastmod>
     </url>
     <url>
-        <loc>http://jellyfox.sly.io/contact/</loc>
+        <loc>https://jellyfox-is-cool.github.io/contact/</loc>
     </url>
     <url>
-        <loc>http://jellyfox.sly.io/fennec/</loc>
+        <loc>https://jellyfox-is-cool.github.io/fennec/</loc>
     </url>
     <url>
-        <loc>http://jellyfox.sly.io/music/</loc>
+        <loc>https://jellyfox-is-cool.github.io/music/</loc>
     </url>
     <url>
-        <loc>http://jellyfox.sly.io/pronouns/</loc>
+        <loc>https://jellyfox-is-cool.github.io/pronouns/</loc>
     </url>
     <url>
-        <loc>http://jellyfox.sly.io/startpage/</loc>
+        <loc>https://jellyfox-is-cool.github.io/startpage/</loc>
     </url>
 </urlset>
