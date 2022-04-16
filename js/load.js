@@ -8,7 +8,8 @@ var w = [
   "howdy howdy howdy",
   "hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
   "hey bitch",
-  "hello who're"
+  "hello who're",
+  "what is 9+10"
 ]
 
 document.getElementById("wel").innerHTML = w[Math.floor(Math.random() * w.length)];
