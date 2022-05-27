@@ -4,8 +4,60 @@
 	<link href="https://jellyfox.moe/blog/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://jellyfox.moe/blog/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-04-25T00:00:00+00:00</updated>
+	<updated>2022-05-27T00:00:00+00:00</updated>
 	<id>https://jellyfox.moe/blog/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Rambling About Some Nice Self-Hosted Services</title>
+		<published>2022-05-27T00:00:00+00:00</published>
+		<updated>2022-05-27T00:00:00+00:00</updated>
+		<link href="https://jellyfox.moe/blog/selfhostedramble/" type="text/html"/>
+		<id>https://jellyfox.moe/blog/selfhostedramble/</id>
+		<content type="html">&lt;p&gt;Oftentimes, you see people complaining about the quality of services offered by big corporations online. One of the most prevalent of these complaints is their servers, or rather their increasingly frequent downtime. Of course, no matter how good your server is, it will always need a wee bit of downtime, whether it be for maintenance, because the connection to it dropped, or whatever else. However, this situation, whilst understandable, is frustratingly frequent with services that many use for comfort - myself included. Such services include Discord, Spotify, Twitter - y&#x27;know. The usual suspects, really.&lt;&#x2F;p&gt;
+&lt;p&gt;So, as a bit of a follow-up to my &lt;a href=&quot;&#x2F;blog&#x2F;whymakeawebsite&quot;&gt;prior blog entry detailing why you should make your own website&lt;&#x2F;a&gt;, I&#x27;m going to have a bit of a ramble as to why you should give them all a two-finger salute and just do your own shit.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;But Jelly,&amp;quot; I hear you exclaim from atop a three-necked goose, &amp;quot;why would I give myself more work when the apps are right there?&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;Well, see, that&#x27;s the kicker - these don&#x27;t &lt;em&gt;have&lt;&#x2F;em&gt; to be things that take more effort. Believe you me, if my dumb ass can get shit to work, there&#x27;s a good 85% chance that you probably can, too, reader. As to why you would undertake the task at all... well, did you not read the first paragraph of this post? It&#x27;s to mitigate as much of your own personal powerlessness in the event of a service going down as is possible, whilst also offering a few more benefits.&lt;&#x2F;p&gt;
+&lt;p&gt;For example, allow me to start with...&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;navidrome&quot;&gt;&lt;a href=&quot;https;&#x2F;&#x2F;navidrome.org&quot;&gt;Navidrome&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Yes, I&#x27;ve &lt;a href=&quot;&#x2F;blog&#x2F;movingday&quot;&gt;mentioned this one before&lt;&#x2F;a&gt;, Navidrome! Navidrome is a self-hosted solution to Spotify, allowing you to access any music you store on a server from all of your devices. It utilises the Subsonic API, which means that countless apps can connect to it incredibly easily, transcodes files as they are played as to not use 111,000,000 GB of your data to play &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=LQUXuQ6Zd9w&quot;&gt;War Pigs&lt;&#x2F;a&gt;, and allows for you to have a fuckin&#x27; huge library.&lt;&#x2F;p&gt;
+&lt;p&gt;Dog.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img 
+    style=&quot;display: block;
+           margin-left: auto;  
+           margin-right: auto;   
+           width: 70%;&quot;
+    src=&quot;&#x2F;assets&#x2F;articles&#x2F;whyselfhost&#x2F;library.jpg&quot;
+    alt=&quot;The size of my music library. Quite large. 700+ GB.&quot;        
+    title=&quot;The size of my music library. Quite large. 700+ GB.&quot;&gt; 
+&lt;&#x2F;img&gt;
+&lt;br&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;I mean *huuuuge.*&lt;&#x2F;center&gt;
+&lt;br&gt;
+&lt;p&gt;It&#x27;s incredibly convenient if you&#x27;re like me, and have a small horde of CDs you&#x27;re sat on, but simultaneously, you live in the current year and don&#x27;t fancy carrying a Discman with you everywhere you go. Just rip your CDs to your server&#x27;s storage and be done with it. Likewise, if you have a large, already-digital music collection - also like me - you can just set up Navidrome to use that and be away.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve been using this one for the best part of five months now! And I can singlehandedly say that it is infinitely more reliable than Spotify in just about every aspect, at least for my daily use.&lt;&#x2F;p&gt;
+&lt;p&gt;The only con that is really at all noticeable when it comes to Navidrome - and, to be completely fair, this is likely just my own stupid fault - playlists start to take a while to load after a while. That being said, this is when you&#x27;re adding, like, 2500+ songs to one playlist, so it should be perfectly fine for most people who aren&#x27;t complete data hoarders. &lt;&#x2F;p&gt;
+&lt;h1 id=&quot;jellyfin&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;jellyfin.org&quot;&gt;Jellyfin&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Now, Jellyfin is a bit of a recent addition to my repertoire; previously, I used to use Plex, as it was highly convenient for things like watch parties, or if I wanted to share bits and bobs with my family, or what have you. However, I started to look into alternatives around about the time that the Universal Wishlist feature was implemented; a means to shepard the user into using external services, some of which are even paid, after Plex itself already asks for a fee to have all of the features readily available to you. (Of course, I never paid for a Plex Pass, tight bitch that I am.)&lt;&#x2F;p&gt;
+&lt;p&gt;And it was on that search for alternatives that I ended up chancing upon Jellyfin; it effectively promised all that Plex did, except with one thing changed - absolutely no money required. You just start the server, feed it your media, and it will host said media with a nice-looking interface, posters, Rotten Tomatoes scores for your films and telly, all that good shit. To quote their own website - &amp;quot;no strings attached... your media, your server, your way&amp;quot; - that being a mantra that I would argue is highly essential in the self-hosting world. You should be able to own your media and watch in your own way.&lt;&#x2F;p&gt;
+&lt;p&gt;So, coming from Plex, what does Jellyfin offer?&lt;&#x2F;p&gt;
+&lt;p&gt;You know, like, everything Plex has, yeah? The nice interface? The theme songs playing when you click on programmes? The ability to share shit with other people? Hell, even the fuckin&#x27; DVR feature for the three people in the world who own an aerial that plugs into their PC? All of it&#x27;s there, dude, and that shit works flawlessly.&lt;&#x2F;p&gt;
+&lt;p&gt;Jellyfin, in my limited time with it thus far, has given me very little in the way of issues - it has been a seamless switch to it from Plex, and it has performed infinitely better in most aspects, too. For example, remember when Plex used to make it piss-easy for you to install plugins before they started trying to grab as much cash from you as humanly possible? Jellyfin also has plugins, and has them in full force; more metadata providers, subtitle downloaders, and likely more... just I&#x27;m too lazy to have ran into them yet. As a result of me having access to lots of metadata providers, it was a lot easier for it to obtain metadata for my more obscure pieces of media (1940s Japanese cinema is a total bitch to scrape for), and as just a little cherry on top, the default, official Jellyfin player has controller support, which allows my slovenly arse to lie in bed watching Breaking Bad without me needing to lug my whole keyboard across the room.&lt;&#x2F;p&gt;
+&lt;p&gt;The only issue that I&#x27;ve ran into seems to be some sort of memory usage issue; after prolonged use, it may start to consume a lot of RAM - usually, it gets up to 4GB or so of RAM in my 16GB system at worst. However, this is something that could easily be fixed by using a cron job or similar to just restart the service every so often in order to flush it out.&lt;&#x2F;p&gt;
+&lt;p&gt;But, similarly to Navidrome, this issue is usually not overly noticeable, especially because the RAM usage issue never seems to exceed a quarter of your onboard memory - yes, still a large amount, and indeed inexcusable if you&#x27;re using your main desktop PC to host a server, but if you have a separate server PC, or implement the aforementioned cron job band-aid fix, it&#x27;ll likely be right as rain. &lt;&#x2F;p&gt;
+&lt;h1 id=&quot;frontends&quot;&gt;Frontends&lt;&#x2F;h1&gt;
+&lt;p&gt;Having covered most of the big players in terms of hosting your own stuff, what else could be left? Well, how&#x27;s about some better, more private interfaces for some of the bigger sites?&lt;&#x2F;p&gt;
+&lt;p&gt;Due to these being.. well, simply just frontends for other sites, I haven&#x27;t really got much input to give. This is more just a quick speed-listing than a comprehensive review of each of these; this isn&#x27;t to say that they&#x27;re lesser, of course. If anything, the fact that I have little to say about them should indicate to you that they do their job extremely fucking well, most of them exceeding that which they act as frontends for.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;invidious&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;invidious.io&#x2F;&quot;&gt;Invidious&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Arguably my most used site at this point, Invidious is a frontend for YouTube. It allows you all of the regular YouTube shite - accounts, notifications, subscriptions, the only real exception is that you can&#x27;t make playlists through the platform, although that sounds hellish to implement, to be fair. &lt;&#x2F;p&gt;
+&lt;p&gt;It has a few nice added features - for one that&#x27;s been an absolute boon, it integrates a download button with a quality selector onto the video page. One that isn&#x27;t locked behind fucking YouTube Red, or YouTube Premium, or whatever they&#x27;ve decided to call it this week. &lt;&#x2F;p&gt;
+&lt;p&gt;And another amazing thing for my uses: you can use the URLs in MPV, as yt-dlp&#x2F;youtube-dl will resolve them! And in addition to that, you can even grab RSS feeds for each channel that you like! It&#x27;s really just a better way of using YouTube, so long as you can eschew the ability to create playlists.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;nitter&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;nitter.net&#x2F;&quot;&gt;Nitter&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;A really fucking good Twitter frontend. It comes with support (and indeed implementation) of several themes, so that you may have the interface look exactly as you wish, on top of it allowing you to tweak more facets of the visuals. Nitter also allows for grabbing RSS feeds.&lt;&#x2F;p&gt;
+&lt;p&gt;Again, like I said - not a lot to say on this. It&#x27;s just fucking great, okay?&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;closing-thoughts&quot;&gt;Closing Thoughts&lt;&#x2F;h1&gt;
+&lt;p&gt;So, all in all, I hope that my ramblings have been at least somewhat coherent enough to convey that I really dig self-hosted shit, and I champion this as a great way to both maintain your privacy, and guarantee that in the event that any of your services goes down, you can just go fix it instead of being at the whims of big tech and their downtimes. &lt;&#x2F;p&gt;
+&lt;p&gt;I dunno, dog, I just wanted to fuckin ramble, okay? You&#x27;re not &lt;em&gt;the police.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Twitter&#x27;s Dead, Move On</title>
 		<published>2022-04-25T00:00:00+00:00</published>
