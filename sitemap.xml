@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://jellyfox-is-cool.github.io/</loc>
+        <loc>localhost/</loc>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/about/</loc>
+        <loc>localhost/about/</loc>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/blog/</loc>
+        <loc>localhost/blog/</loc>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/blog/dontsupportjkrowling/</loc>
+        <loc>localhost/blog/dontsupportjkrowling/</loc>
         <lastmod>2021-12-27</lastmod>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/blog/findingyakuza/</loc>
+        <loc>localhost/blog/findingyakuza/</loc>
         <lastmod>2021-12-26</lastmod>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/blog/fuckwindows/</loc>
+        <loc>localhost/blog/fuckwindows/</loc>
         <lastmod>2021-12-27</lastmod>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/blog/movingday/</loc>
+        <loc>localhost/blog/movingday/</loc>
         <lastmod>2022-04-01</lastmod>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/blog/namecheapaaaa/</loc>
+        <loc>localhost/blog/namecheapaaaa/</loc>
         <lastmod>2022-05-29</lastmod>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/blog/overwatch2/</loc>
+        <loc>localhost/blog/overwatch2/</loc>
         <lastmod>2022-04-22</lastmod>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/blog/selfhostedramble/</loc>
+        <loc>localhost/blog/selfhostedramble/</loc>
         <lastmod>2022-05-27</lastmod>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/blog/twitterisdead/</loc>
+        <loc>localhost/blog/twitterisdead/</loc>
         <lastmod>2022-04-25</lastmod>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/blog/whymakeawebsite/</loc>
+        <loc>localhost/blog/whymakeawebsite/</loc>
         <lastmod>2021-12-29</lastmod>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/blog/yakuza0/</loc>
+        <loc>localhost/blog/yakuza0/</loc>
         <lastmod>2022-04-08</lastmod>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/contact/</loc>
+        <loc>localhost/contact/</loc>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/fennec/</loc>
+        <loc>localhost/fennec/</loc>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/jellyfin/</loc>
+        <loc>localhost/jellyfin/</loc>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/mini/</loc>
+        <loc>localhost/mini/</loc>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/music/</loc>
+        <loc>localhost/music/</loc>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/pronouns/</loc>
+        <loc>localhost/pronouns/</loc>
     </url>
     <url>
-        <loc>https://jellyfox-is-cool.github.io/startpage/</loc>
+        <loc>localhost/startpage/</loc>
     </url>
 </urlset>
